@@ -1,0 +1,15 @@
+-x
+c++
+-std=gnu++11
+-include
+{HOME}/.arduino15/packages/m5stack/hardware/esp32/{ESP_VERSION}/cores/esp32/Arduino.h
+-I
+{HOME}/.arduino15/packages/m5stack/hardware/esp32/{ESP_VERSION}/tools/sdk/esp32s3/include/esp_wifi/include/
+-I
+{HOME}/.arduino15/packages/m5stack/hardware/esp32/{ESP_VERSION}/cores/esp32/
+-I
+{HOME}/.arduino15/packages/m5stack/hardware/esp32/{ESP_VERSION}/libraries/WiFi/src/
+-I
+{HOME}/.arduino15/packages/m5stack/hardware/esp32/{ESP_VERSION}/libraries/HTTPClient/src/
+-I
+{HOME}/Arduino/libraries/Timer-CAM/src/
