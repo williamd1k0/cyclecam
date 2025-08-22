@@ -4,6 +4,8 @@ A timelapse camera for cyclists using M5Stack TimerCamera-F and Flutter.
 
 The project is designed to capture images at regular intervals while cycling, allowing users to create a timelapse video of their rides.
 
+https://github.com/user-attachments/assets/99a935f3-a570-4225-970a-bdf9e97bd511
+
 The project consists of three main components:
 
 1. M5Stack TimerCamera-F firmware: the C++ code that runs on the M5Stack TimerCamera-F device, responsible for capturing images at specified intervals and transmitting them to a web server.
