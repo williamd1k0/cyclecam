@@ -1,4 +1,4 @@
-# ![](assets/m5_cyclecam.png) Cyclecam
+## ![](assets/m5_cyclecam-x2.png) Cyclecam
 
 A timelapse camera for cyclists using M5Stack TimerCamera-F and Flutter.
 
@@ -71,3 +71,5 @@ The diameter of the O-ring may vary depending on the material it is made of and 
 ![](assets/mount-cam.jpg)
 
 >I'm not gonna lie, I always feared that the mount would break during use, but it never did, even after several rides on rough terrain.
+
+By the way, you can also try to use the camera without the mount (in different situations) or with a different mount. When I first started testing both the firmware and the app, I used the M5StickC Plus watch belt to strap the camera to my left wrist, and it worked fine (although all the images were slightly tilted).
