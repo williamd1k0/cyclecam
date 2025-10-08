@@ -101,7 +101,7 @@ void prepare_sleep() {
 void make_sleep(int for_seconds) {
     prepare_sleep();
     SERIAL_PRINTLN("Waiting for next photo; sleeping for: " + String(for_seconds) + "s");
-    esp_sleep_enable_timer_wakeup(for_seconds * 1000000);
+    esp_sleep_enable_timer_wakeup((uint64_t)for_seconds * 1000000);
     esp_deep_sleep_start();
 }
 
